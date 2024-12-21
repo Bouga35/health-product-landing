@@ -1,7 +1,6 @@
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import { Heart, Leaf, Shield } from "lucide-react"
-
 import Link from "next/link"
 
 export default function HealthProductLanding() {
@@ -81,7 +80,7 @@ export default function HealthProductLanding() {
               <Card>
                 <CardContent className="p-6">
                   <p className="text-gray-500 mb-4">
-                    "I've never felt better since I started using this product. My energy levels are through the roof!"
+                    &quot;I've never felt better since I started using this product. My energy levels are through the roof!&quot;
                   </p>
                   <p className="font-semibold">- Sarah J.</p>
                 </CardContent>
@@ -89,7 +88,7 @@ export default function HealthProductLanding() {
               <Card>
                 <CardContent className="p-6">
                   <p className="text-gray-500 mb-4">
-                    "As a busy professional, this supplement has been a game-changer for my focus and productivity."
+                    &quot;As a busy professional, this supplement has been a game-changer for my focus and productivity.&quot;
                   </p>
                   <p className="font-semibold">- Mike T.</p>
                 </CardContent>
